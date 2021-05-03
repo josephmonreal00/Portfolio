@@ -5,13 +5,12 @@ import Nav from './Nav';
 import Footer from './Footer';
 class App extends React.Component {
   render() {
-    const style = {
-      color: 'blue'
-    }
     return (
       <div>
         <Nav />
-        <h1 style={style}>Portfolio</h1>
+        <h1>Portfolio</h1>
+        <button type="button" class="btn btn-primary">Hello</button>
+        <button type="button" class="btn btn-danger">Hello</button>
         <Footer />
       </div>
     )
