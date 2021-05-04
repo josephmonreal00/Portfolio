@@ -7,7 +7,7 @@ class Nav extends React.Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
         <a className="navbar-brand" href="#">
           Joseph Monreal
         </a>
@@ -45,17 +45,29 @@ class Nav extends React.Component {
           <ul class="nav">
             <li class="nav-item">
               <a class="nav-link active" href="#">
-                <ion-icon size="small" color="" name="logo-linkedin"></ion-icon>
+                <ion-icon
+                  size="small"
+                  color="white"
+                  name="logo-linkedin"
+                ></ion-icon>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <ion-icon size="small" color="" name="logo-twitter"></ion-icon>
+                <ion-icon
+                  size="small"
+                  color="white"
+                  name="logo-twitter"
+                ></ion-icon>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <ion-icon size="small" color="" name="logo-github"></ion-icon>
+                <ion-icon
+                  size="small"
+                  color="white"
+                  name="logo-github"
+                ></ion-icon>
               </a>
             </li>
           </ul>
