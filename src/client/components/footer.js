@@ -7,7 +7,6 @@ const Footer = () => {
       href: "https://www.linkedin.com/in/josephandrewmonreal/",
     },
     { social: "GitHub", href: "https://github.com/josephmonreal00" },
-    { social: "Email", href: "" },
   ]);
   return (
     <Container fluid className="p-5 m-5">
@@ -21,11 +20,19 @@ const Footer = () => {
           <Row>
             {links.map((ele, idx) => (
               <Col className="p-0 m-0">
-                <a style={{ fontSize: "10px" }} href={ele.href}>
+                <a style={{ fontSize: "10px" }} href={ele.href} target="_blank">
                   {ele.social}
                 </a>{" "}
               </Col>
             ))}
+            <Col>
+              <a
+                style={{ fontSize: "10px" }}
+                href="mailto:joemonreal23@icloud.com"
+              >
+                Email
+              </a>
+            </Col>
           </Row>
         </Col>
       </Row>
