@@ -123,7 +123,14 @@ const Projects = () => {
         </Col>
         <Col>
           {projects.work.map((ele, idx) => (
-            <Row xs={1} sm={1} md={1} lg={1} xl={1} className="pt-5">
+            <Row
+              xs={1}
+              sm={1}
+              md={1}
+              lg={1}
+              xl={1}
+              className={ele.name === "Angular Task Manager" ? "" : "pt-5"}
+            >
               <Col>
                 <span className="font-weight-bold">
                   {ele.name}
