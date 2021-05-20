@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 const About = () => {
   return (
-    <Container>
+    <Container className="portfolioPadding">
       <Row>
         <Col md={2} lg={2} xl={2}>
           <p className="h5 text-primary">Background</p>

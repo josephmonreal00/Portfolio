@@ -10,7 +10,7 @@ const Skills = () => {
   });
 
   return (
-    <Container>
+    <Container className="portfolioPadding">
       <Row>
         <Col md={2} lg={2} xl={2}>
           <p className="h5 text-primary">Skills</p>

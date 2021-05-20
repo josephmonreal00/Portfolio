@@ -27,23 +27,3 @@ const Greeting = () => {
   );
 };
 export default Greeting;
-
-// Regular BootStrap
-//  <div className="container-fluid m-5">
-//    <div className="row row-cols-1">
-//      <p className="col display-4 m-5">
-//        Hello! <span>&#128075;&#127997;</span>
-//      </p>
-
-//      <p className="col-6 display-4 m-5">
-//        I'm <span className="font-weight-bold">Joseph Monreal</span>, a
-//        design-minded Frontend Developer focused on building great user
-//        interfaces & experiences <span>&#128187;</span>
-//      </p>
-
-//      <p className="col m-5">
-//        Get in touch <span>&#128073;&#127997;</span>{" "}
-//        <span className="fw-bold">joemonreal23@icloud.com</span>
-//      </p>
-//    </div>
-//  </div>;
