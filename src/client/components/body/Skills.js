@@ -18,25 +18,49 @@ const Skills = () => {
         <Col>
           <p className="h5">Languages</p>
           {information.languages.map((ele, idx) => (
-            <p id={ele + " " + idx}>{ele}</p>
+            <p
+              style={{ fontSize: "15px" }}
+              className="font-weight-light"
+              id={ele + " " + idx}
+            >
+              {ele}
+            </p>
           ))}
         </Col>
         <Col>
           <p className="h5">Frameworks</p>
           {information.frameworks.map((ele, idx) => (
-            <p id={ele + " " + idx}>{ele}</p>
+            <p
+              style={{ fontSize: "15px" }}
+              className="font-weight-light"
+              id={ele + " " + idx}
+            >
+              {ele}
+            </p>
           ))}
         </Col>
         <Col>
           <p className="h5">Tools</p>
           {information.tools.map((ele, idx) => (
-            <p id={ele + " " + idx}>{ele}</p>
+            <p
+              style={{ fontSize: "15px" }}
+              className="font-weight-light"
+              id={ele + " " + idx}
+            >
+              {ele}
+            </p>
           ))}
         </Col>
         <Col>
           <p className="h5">Design</p>
           {information.design.map((ele, idx) => (
-            <p id={ele + " " + idx}>{ele}</p>
+            <p
+              style={{ fontSize: "15px" }}
+              className="font-weight-light"
+              id={ele + " " + idx}
+            >
+              {ele}
+            </p>
           ))}
         </Col>
       </Row>

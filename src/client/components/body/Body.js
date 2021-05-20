@@ -3,6 +3,7 @@ import Greeting from "./Greeting";
 import About from "./About";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import Projects from "./Projects";
 class Body extends React.Component {
   constructor(props) {
     super(props);
@@ -15,6 +16,7 @@ class Body extends React.Component {
         <About />
         <Skills />
         <Experience />
+        <Projects />
       </div>
     );
   }

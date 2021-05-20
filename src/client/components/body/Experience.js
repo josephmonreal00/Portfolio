@@ -34,13 +34,24 @@ const Experience = () => {
                 <span className="font-weight-bold" id={idx + " " + ele.title}>
                   {ele.title}
                 </span>{" "}
-                @ <span id={idx + " " + ele.company}>{ele.company}</span>{" "}
-                <p id={idx + " " + ele.responsibilites} className="pt-3">
+                @{" "}
+                <span
+                  className="font-weight-light"
+                  id={idx + " " + ele.company}
+                >
+                  {ele.company}
+                </span>{" "}
+                <p
+                  style={{ fontSize: "15px", fontWeight: "300" }}
+                  id={idx + " " + ele.responsibilites}
+                  className="pt-3"
+                >
                   {ele.responsibilites}
                 </p>
               </Col>
               <Col>
                 <p
+                  style={{ fontSize: "15px", fontWeight: "300" }}
                   className="font-weight-light text-right"
                   id={idx + " " + ele.duration}
                 >
